@@ -92,7 +92,58 @@ const ScriptImport = ({ onReady }: ScriptImportProps) => {
         <Script
           src="/assets/js/ScrollSmoother.min.js"
           strategy="afterInteractive"
-          onLoad={() => onReady?.()}
+          onLoad={() => {
+            onReady?.();
+
+            // ─────────────────────────────────────────────────────────────
+            // ul_text_amin_two: white color sweep animation
+            // Matches exactly the inline <script> at end of Webflow HTML body.
+            // SplitText splits each child element into lines, then GSAP
+            // scrollTrigger scrubs backgroundPositionX from 100% → 0%
+            // revealing white text as the user scrolls past each line.
+            // ─────────────────────────────────────────────────────────────
+            document.fonts.ready.then(() => {
+              const win = window as unknown as {
+                gsap?: { registerPlugin: (...args: unknown[]) => void; to: (el: unknown, vars: unknown) => void; delayedCall: (delay: number, fn: () => void) => { pause: () => { restart: (reset: boolean) => void } } };
+                ScrollTrigger?: unknown;
+                SplitText?: new (el: Element, opts: { type: string }) => { lines: Element[]; split: () => void };
+              };
+
+              const gsap = win.gsap;
+              const SplitText = win.SplitText;
+              const ScrollTrigger = win.ScrollTrigger;
+
+              if (!gsap || !SplitText || !ScrollTrigger) return;
+
+              gsap.registerPlugin(ScrollTrigger, SplitText);
+
+              const targets = document.querySelectorAll(".ul_text_amin_two *");
+              targets.forEach((el) => {
+                const split = new SplitText(el, { type: "lines" });
+                split.lines.forEach((line) => {
+                  gsap.to(line, {
+                    backgroundPositionX: 0,
+                    ease: "none",
+                    scrollTrigger: {
+                      trigger: line,
+                      scrub: 2,
+                      start: "top center",
+                      end: "bottom center",
+                    },
+                  });
+                });
+
+                const resizeDelay = gsap
+                  .delayedCall(0.2, () => {
+                    (ScrollTrigger as { getAll: () => { kill: () => void }[] }).getAll().forEach((t) => t.kill());
+                    split.split();
+                  })
+                  .pause();
+
+                window.addEventListener("resize", () => resizeDelay.restart(true));
+              });
+            });
+          }}
         />
       )}
     </>

@@ -2,4 +2,24 @@
 
 body {
   font-family: var(--font-family), sans-serif !important;
-} 
+}
+
+/*
+  Text sweep animation for .ul_text_amin_two
+  Original from Webflow footer w-embed style block.
+  The gradient starts at 100% (gray visible) and GSAP scrollTrigger
+  animates backgroundPositionX to 0% (white revealed) as user scrolls.
+*/
+.ul_text_amin_two p,
+.ul_text_amin_two div {
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 50%,
+    #676668 50%
+  );
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
