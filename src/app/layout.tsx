@@ -4,6 +4,14 @@ import "@/styles/webflow.css";
 import "@/styles/medjana.webflow.css";
 import "@/styles/globals.css";
 import MainLayout from "@/components/layouts/MainLayout";
+import { Manrope } from "next/font/google";
+
+export const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"], 
+  variable: "--font-family",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,8 +24,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body>
+    <html
+      lang="en"
+      data-wf-page="692ec84ae383c17227fc8d2e"
+      data-wf-site="692ec847e383c17227fc8c5b"
+      suppressHydrationWarning
+    >
+      <body className={manrope.variable}>
         <MainLayout>{children}</MainLayout>
       </body>
     </html>
