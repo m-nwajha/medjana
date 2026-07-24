@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { useScriptsReady } from "@/components/contexts/ScriptsProvider";
 
 type WebflowModuleName = "ix2" | "lightbox" | "tabs" | "slider" | "navbar" | "dropdown";
@@ -14,20 +15,26 @@ interface WebflowGlobal {
 export const useWebflowReinit = (modules: WebflowModuleName[] = ["ix2"]) => {
   const { webflow } = useScriptsReady();
 
+  const pathname = usePathname();
+
   useEffect(() => {
     if (!webflow) return;
 
-    const win = window as unknown as { Webflow?: WebflowGlobal };
-    if (!win.Webflow) return;
+    const timer = setTimeout(() => {
+      const win = window as unknown as { Webflow?: WebflowGlobal };
+      if (!win.Webflow) return;
 
-    win.Webflow.destroy();
-    win.Webflow.ready();
+      win.Webflow.destroy();
+      win.Webflow.ready();
 
-    modules.forEach((name) => {
-      const mod = win.Webflow?.require(name);
-      mod?.init?.();
-      mod?.ready?.();
-    });
+      modules.forEach((name) => {
+        const mod = win.Webflow?.require(name);
+        mod?.init?.();
+        mod?.ready?.();
+      });
+    }, 250);
+
+    return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [webflow]);
+  }, [webflow, pathname]);
 }
