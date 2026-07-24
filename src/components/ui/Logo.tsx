@@ -7,7 +7,7 @@ const Logo = () => {
       <Image
         width={178}
         height={55}
-        src="/assets/images/logo.png"
+        src="/assets/images/logo.svg"
         alt="main_logo"
         className="global-logo"
         style={{ height: "auto" }}

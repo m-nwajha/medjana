@@ -1,5 +1,16 @@
+import { useHeroReveal } from "@/hooks/useHeroReveal";
+import { useWebflowReinit } from "@/hooks/useWebflowReinit";
 import Image from "next/image";
+
+const HERO_ELEMENT_IDS = [
+  "6257fdfb-ddb3-0e3b-7a19-3c31ebb942b3",
+  "aac156d4-5b26-1fa6-8081-f692a311913b",
+];
+
 const Hero = () => {
+  useWebflowReinit(["ix2"]);
+  useHeroReveal(HERO_ELEMENT_IDS);
+
   return (
     <section className="ul_hero_banner_sect">
       <div className="container">
