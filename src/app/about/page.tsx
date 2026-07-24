@@ -1,16 +1,5 @@
-"use client";
-import AboutHeroSect from "@/components/views/About/AboutHeroSect";
-import AboutSect from "@/components/views/About/AboutSect";
-import CoreSect from "@/components/views/About/CoreSect";
-import AwardingSect from "@/components/views/About/AwardingSect";
+import AboutPage from "@/components/views/About";
 
-export default function AboutPage() {
-  return (
-    <>
-      <AboutHeroSect />
-      <AboutSect />
-      <CoreSect />
-      <AwardingSect />
-    </>
-  );
+export default function About() {
+  return <AboutPage />;
 }

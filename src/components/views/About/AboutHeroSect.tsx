@@ -1,19 +1,15 @@
 "use client";
 
-import { useEffect } from "react";
+import { useHeroReveal } from "@/hooks/useHeroReveal";
+import { useWebflowReinit } from "@/hooks/useWebflowReinit";
 
+const ABOUT_HERO_ELEMENT_IDS = [
+  "aae436bf-0d55-0047-88cf-a444261bf362",
+  "bccabd5f-359f-9136-0a0e-d62adce5a60d",
+];
 const AboutHeroSect = () => {
-  useEffect(() => {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const win = window as any;
-    if (win.Webflow && win.Webflow.require) {
-      const lightbox = win.Webflow.require("lightbox");
-      if (lightbox) {
-        lightbox.ready();
-      }
-    }
-  }, []);
-
+  useWebflowReinit(["ix2", "lightbox"]);
+  useHeroReveal(ABOUT_HERO_ELEMENT_IDS);
   return (
     <section className="ul_inner_hero_banner_sect">
       <div className="container">
@@ -25,7 +21,8 @@ const AboutHeroSect = () => {
             Advice on <span className="ul_about_title_span">Creativity</span>
           </h2>
           <p className="ul_short_des ul_about_short_des">
-            We blend imagination with strategy to craft impactful digital experiences.
+            We blend imagination with strategy to craft impactful digital
+            experiences.
           </p>
         </div>
         <div
@@ -56,7 +53,10 @@ const AboutHeroSect = () => {
               className="ul_about_hero_banner img_hover"
             />
             <div className="ul_about_hero_banner_items_shadow"></div>
-            <a href="#" className="ul_about_hero_banner_lightbox w-inline-block w-lightbox">
+            <a
+              href="#"
+              className="ul_about_hero_banner_lightbox w-inline-block w-lightbox"
+            >
               <div className="ul_about_hero_banner_lightbox_icon_box">
                 <div className="fa-solid fa-play text-[#fbd30b]!"></div>
               </div>
@@ -68,11 +68,13 @@ const AboutHeroSect = () => {
                     items: [
                       {
                         url: "https://www.youtube.com/watch?v=TLYlXI8HpH0",
-                        originalUrl: "https://www.youtube.com/watch?v=TLYlXI8HpH0",
+                        originalUrl:
+                          "https://www.youtube.com/watch?v=TLYlXI8HpH0",
                         width: 940,
                         height: 528,
-                        thumbnailUrl: "https://i.ytimg.com/vi/TLYlXI8HpH0/hqdefault.jpg",
-                        html: "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FTLYlXI8HpH0%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DTLYlXI8HpH0&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FTLYlXI8HpH0%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                        thumbnailUrl:
+                          "https://i.ytimg.com/vi/TLYlXI8HpH0/hqdefault.jpg",
+                        html: '<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FTLYlXI8HpH0%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DTLYlXI8HpH0&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FTLYlXI8HpH0%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>',
                         type: "video",
                       },
                     ],
