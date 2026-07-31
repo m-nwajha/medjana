@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../ui/Logo";
-import { navbarRoutes } from "@/constants/navbar-routes";
+import { navbarRoutes, NavRoute } from "@/constants/navbar-routes";
 import { usePathname } from "next/navigation";
 import { Fragment } from "react/jsx-runtime";
 import ButtonSolid from "../ui/ButtonSolid";
@@ -32,7 +32,7 @@ const Header = () => {
             </div>
             <div className="navigation-right">
               <nav role="navigation" className="nav-menu w-nav-menu">
-                {navbarRoutes.map((route) =>
+                {navbarRoutes.map((route: NavRoute) =>
                   route.subRoutes ? (
                     <Fragment key={route.title}>
                       <div

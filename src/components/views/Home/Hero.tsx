@@ -20,16 +20,20 @@ const Hero = () => {
         >
           <div className="ul_hero_banner_items_one">
             <div className="ul_hero_banner_sub_title_dot bg-[linear-gradient(135deg,#fdd309,#221e05)]!"></div>
-            <h4 className="ul_hero_banner_sub_title">we are ferula</h4>
+            <h4 className="ul_hero_banner_sub_title">
+              Kreativagentur aus Laatzen
+            </h4>
           </div>
           <div className="ul_hero_banner_items_two">
             <div className="ul_hero_banner_experience">
-              <h3 className="ul_hero_banner_experience_years">12+</h3>
+              {/* <h3 className="ul_hero_banner_experience_years">12+</h3> */}
               <p className="ul_hero_banner_experience_content">
-                years of experience
+                Design · Druck · Digital - alles aus einer Hand.
               </p>
             </div>
-            <h1 className="ul_hero_banner_title">Creative Agency</h1>
+            <h1 className="ul_hero_banner_title" style={{ fontSize: "7rem" }}>
+              SICHTBARE <br /> IDEEN
+            </h1>
           </div>
         </div>
       </div>
@@ -59,9 +63,12 @@ const Hero = () => {
             className="ul_hero_banner_short_des_box"
           >
             <p className="ul_hero_banner_short_des">
-              We combine imagination with strategy to achieve impactful results
+              Wir verbinden Kreativität mit Strategie für wirkungsvolle
+              Ergebnisse.
             </p>
-            <h4 className="ul_hero_banner_short_des_year">@2025</h4>
+            <h4 className="ul_hero_banner_short_des_year">
+              @{new Date().getFullYear()}
+            </h4>
           </div>
         </div>
       </div>

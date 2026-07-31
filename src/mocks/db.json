@@ -1,0 +1,40 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "title": "Druck & Print",
+      "description": "Flyer, Visitenkarten, Plakate, Gutscheine und Geschäftsausstattung - professionell gestaltet und druckfertig umgesetzt.",
+      "imageThumb": "/assets/images/druck-print.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Speisekarten & Menüs",
+      "description": "Speise- und Getränkekarten, Tischaufsteller und Angebotskarten, die zu Ihrem Restaurant passen und Gästen die Auswahl erleichtern.",
+      "imageThumb": "/assets/images/speisekarten-menüs.jpg"
+    },
+    {
+      "id": "3",
+      "title": "TV & Video-Design",
+      "description": "Animierte Angebote, digitale Menüboards und aufmerksamkeitsstarke Inhalte für Bildschirme im Restaurant.",
+      "imageThumb": "/assets/images/TV-video-design.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Webdesign",
+      "description": "Moderne, schnelle Websites für Gastronomie und lokale Unternehmen - optimiert für Smartphone, Suche und Kontakt.",
+      "imageThumb": "/assets/images/webdesign.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Markenauftritt & Design",
+      "description": "Logo, Farben, Schriften und Bildsprache als stimmiges Gesamtbild, das professionell wirkt und wiedererkannt wird.",
+      "imageThumb": "/assets/images/markenauftritt-design.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Werbetechnik & Ausstattung",
+      "description": "Beschilderung, Schaufenster, Wandgestaltung und passende Ausstattung für Ihren Standort.",
+      "imageThumb": "/assets/images/werbetechnik-ausstattung.jpg"
+    }
+  ]
+}

@@ -1,29 +1,26 @@
-export const navbarRoutes = [
+
+export type NavRoute = {
+  title: string;
+  href: string;
+  subRoutes?: NavRoute[];
+};
+
+export const navbarRoutes: NavRoute[] = [
   {
-    title: "Startseite",
+    title: "Home",
     href: "/",
-  },
-  {
-    title: "Über uns",
-    href: "/about",
   },
   {
     title: "Services",
     href: "/services",
-    subRoutes: [
-      {
-        title: "Services",
-        href: "/services",
-      },
-      {
-        title: "Services details",
-        href: "/services/details",
-      },
-    ],
   },
   {
     title: "Projekte",
     href: "/projects",
+  },
+  {
+    title: "Über uns",
+    href: "/about",
   },
   {
     title: "Kontakt",
