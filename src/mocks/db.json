@@ -4,37 +4,223 @@
       "id": "1",
       "title": "Druck & Print",
       "description": "Flyer, Visitenkarten, Plakate, Gutscheine und Geschäftsausstattung - professionell gestaltet und druckfertig umgesetzt.",
-      "imageThumb": "/assets/images/druck-print.jpg"
+      "imageThumb": "/assets/images/druck-print.jpg",
+      "tags": ["Flyer", "Visitenkarten", "Plakate"],
+      "summaryParagraphs": [
+        "Von der ersten Idee bis zur druckfertigen Datei begleiten wir jedes Projekt persönlich. Wir achten auf Farbräume, Papierwahl und Veredelung, damit das Ergebnis nicht nur gut aussieht, sondern auch in der Hand überzeugt.",
+        "Unsere Erfahrung mit lokalen Druckereien sorgt dafür, dass Termine eingehalten werden und die Qualität stimmt - egal ob es sich um eine kleine Auflage oder ein größeres Projekt handelt."
+      ],
+      "offerItems": [
+        {
+          "title": "Flyer & Broschüren",
+          "description": "Individuell gestaltete Drucksachen für Aktionen, Angebote und Neuigkeiten."
+        },
+        {
+          "title": "Visitenkarten",
+          "description": "Hochwertige Karten, die Ihren ersten Eindruck stärken."
+        },
+        {
+          "title": "Plakate & Aufsteller",
+          "description": "Auffällige Formate für Innen- und Außenwerbung."
+        },
+        {
+          "title": "Gutscheine",
+          "description": "Gestaltete Gutscheinkarten für zusätzlichen Umsatz."
+        },
+        {
+          "title": "Geschäftsausstattung",
+          "description": "Briefpapier, Rechnungen und mehr im einheitlichen Design."
+        }
+      ],
+      "figureImages": [
+        "/assets/images/druck-print-figure-1.jpg",
+        "/assets/images/druck-print-figure-2.jpg"
+      ]
     },
     {
       "id": "2",
       "title": "Speisekarten & Menüs",
       "description": "Speise- und Getränkekarten, Tischaufsteller und Angebotskarten, die zu Ihrem Restaurant passen und Gästen die Auswahl erleichtern.",
-      "imageThumb": "/assets/images/speisekarten-menüs.jpg"
+      "imageThumb": "/assets/images/speisekarten-menüs.jpg",
+      "tags": ["Speisekarten", "Getränkekarten", "Tischaufsteller"],
+      "summaryParagraphs": [
+        "Wir entwickeln Speise- und Getränkekarten, die Ihre Küche und Ihr Ambiente widerspiegeln - klar strukturiert, gut lesbar und mit einem Layout, das zum Bestellen einlädt.",
+        "Auch Tischaufsteller und saisonale Angebotskarten gestalten wir passend zum Gesamtkonzept, sodass Ihr Auftritt an jedem Tisch einheitlich wirkt."
+      ],
+      "offerItems": [
+        {
+          "title": "Speisekarten",
+          "description": "Übersichtliches Design für Hauptkarten und Tageskarten."
+        },
+        {
+          "title": "Getränkekarten",
+          "description": "Klare Struktur für Wein, Cocktails und alkoholfreie Auswahl."
+        },
+        {
+          "title": "Tischaufsteller",
+          "description": "Kompakte Formate für Aktionen und Empfehlungen."
+        },
+        {
+          "title": "Angebotskarten",
+          "description": "Saisonale Karten für Wochen- und Tagesangebote."
+        },
+        {
+          "title": "Individuelles Layout",
+          "description": "Design passend zu Ihrem Restaurantkonzept."
+        }
+      ],
+      "figureImages": [
+        "/assets/images/speisekarten-menus-figure-1.jpg",
+        "/assets/images/speisekarten-menus-figure-2.jpg"
+      ]
     },
     {
       "id": "3",
       "title": "TV & Video-Design",
       "description": "Animierte Angebote, digitale Menüboards und aufmerksamkeitsstarke Inhalte für Bildschirme im Restaurant.",
-      "imageThumb": "/assets/images/TV-video-design.jpg"
+      "imageThumb": "/assets/images/TV-video-design.jpg",
+      "tags": ["Menüboards", "Animationen", "Bildschirme"],
+      "summaryParagraphs": [
+        "Statt starrer Karten setzen wir auf bewegte Inhalte: animierte Angebote, wechselnde Tagesangebote und ansprechende Übergänge, die auf jedem Bildschirm gut aussehen.",
+        "Wir übernehmen Gestaltung und technische Umsetzung, sodass Ihre Inhalte automatisch aktualisiert werden und Ihre Gäste immer aktuelle Informationen sehen."
+      ],
+      "offerItems": [
+        {
+          "title": "Digitale Menüboards",
+          "description": "Übersichtliche Bildschirmkarten mit aktuellen Angeboten."
+        },
+        {
+          "title": "Animierte Inhalte",
+          "description": "Bewegte Grafiken, die Aufmerksamkeit erzeugen."
+        },
+        {
+          "title": "Content-Planung",
+          "description": "Zeitgesteuerte Inhalte für Tages- und Wochenzeiten."
+        },
+        {
+          "title": "Bildschirm-Setup",
+          "description": "Beratung zu Hardware und Platzierung."
+        },
+        {
+          "title": "Regelmäßige Updates",
+          "description": "Aktuelle Angebote ohne zusätzlichen Aufwand für Sie."
+        }
+      ],
+      "figureImages": [
+        "/assets/images/tv-video-design-figure-1.jpg",
+        "/assets/images/tv-video-design-figure-2.jpg"
+      ]
     },
     {
       "id": "4",
       "title": "Webdesign",
       "description": "Moderne, schnelle Websites für Gastronomie und lokale Unternehmen - optimiert für Smartphone, Suche und Kontakt.",
-      "imageThumb": "/assets/images/webdesign.jpg"
+      "imageThumb": "/assets/images/webdesign.jpg",
+      "tags": ["Websites", "Smartphone", "Suche"],
+      "summaryParagraphs": [
+        "Wir entwickeln Websites, die klar strukturiert sind, schnell laden und Besucher direkt zum Ziel führen - egal ob Reservierung, Kontakt oder Speisekarte.",
+        "Suchmaschinenoptimierung, mobile Darstellung und einfache Pflege gehören für uns selbstverständlich dazu, damit Ihre Seite langfristig gefunden wird."
+      ],
+      "offerItems": [
+        {
+          "title": "Individuelles Webdesign",
+          "description": "Einzigartige Gestaltung passend zu Ihrer Marke."
+        },
+        {
+          "title": "Responsive Entwicklung",
+          "description": "Optimale Darstellung auf allen Geräten."
+        },
+        {
+          "title": "Suchmaschinenoptimierung",
+          "description": "Bessere Sichtbarkeit bei lokalen Suchanfragen."
+        },
+        {
+          "title": "Kontakt & Reservierung",
+          "description": "Einfache Wege für Gäste, Sie zu erreichen."
+        },
+        {
+          "title": "Leichte Pflege",
+          "description": "Inhalte selbst aktualisieren, ohne technisches Wissen."
+        }
+      ],
+      "figureImages": [
+        "/assets/images/webdesign-figure-1.jpg",
+        "/assets/images/webdesign-figure-2.jpg"
+      ]
     },
     {
       "id": "5",
       "title": "Markenauftritt & Design",
       "description": "Logo, Farben, Schriften und Bildsprache als stimmiges Gesamtbild, das professionell wirkt und wiedererkannt wird.",
-      "imageThumb": "/assets/images/markenauftritt-design.jpg"
+      "imageThumb": "/assets/images/markenauftritt-design.jpg",
+      "tags": ["Logo", "Farben", "Schriften"],
+      "summaryParagraphs": [
+        "Wir definieren Logo, Farbwelt, Schriften und Bildsprache so, dass sie zu Ihrem Unternehmen passen und sich über alle Materialien hinweg konsequent wiederfinden.",
+        "Das Ergebnis ist ein Auftritt, der professionell wirkt, Vertrauen schafft und sich von anderen Anbietern in Ihrer Umgebung klar abhebt."
+      ],
+      "offerItems": [
+        {
+          "title": "Logo-Entwicklung",
+          "description": "Ein Zeichen, das zu Ihrer Marke passt und im Kopf bleibt."
+        },
+        {
+          "title": "Farb- & Schriftkonzept",
+          "description": "Einheitliche Gestaltungselemente für alle Materialien."
+        },
+        {
+          "title": "Bildsprache",
+          "description": "Fotografie- und Grafikstil abgestimmt auf Ihre Marke."
+        },
+        {
+          "title": "Markenrichtlinien",
+          "description": "Klare Vorgaben für einen konsistenten Auftritt."
+        },
+        {
+          "title": "Anwendung auf Materialien",
+          "description": "Umsetzung auf Print, Digital und vor Ort."
+        }
+      ],
+      "figureImages": [
+        "/assets/images/markenauftritt-design-figure-1.jpg",
+        "/assets/images/markenauftritt-design-figure-2.jpg"
+      ]
     },
     {
       "id": "6",
       "title": "Werbetechnik & Ausstattung",
       "description": "Beschilderung, Schaufenster, Wandgestaltung und passende Ausstattung für Ihren Standort.",
-      "imageThumb": "/assets/images/werbetechnik-ausstattung.jpg"
+      "imageThumb": "/assets/images/werbetechnik-ausstattung.jpg",
+      "tags": ["Beschilderung", "Schaufenster", "Wandgestaltung"],
+      "summaryParagraphs": [
+        "Von der Außenbeschilderung bis zur Innengestaltung sorgen wir dafür, dass Ihr Standort auf den ersten Blick erkennbar ist und Gäste anzieht.",
+        "Wir planen und setzen die passende Ausstattung um - abgestimmt auf Ihre Räumlichkeiten, Ihr Markenbild und die Anforderungen vor Ort."
+      ],
+      "offerItems": [
+        {
+          "title": "Außenbeschilderung",
+          "description": "Auffällige Schilder für bessere Sichtbarkeit."
+        },
+        {
+          "title": "Schaufenstergestaltung",
+          "description": "Gestaltete Flächen, die zum Eintreten einladen."
+        },
+        {
+          "title": "Wandgestaltung",
+          "description": "Individuelle Gestaltung für Innenräume."
+        },
+        {
+          "title": "Standortausstattung",
+          "description": "Passende Elemente für einen einheitlichen Auftritt."
+        },
+        {
+          "title": "Montage & Umsetzung",
+          "description": "Fachgerechte Installation vor Ort."
+        }
+      ],
+      "figureImages": [
+        "/assets/images/werbetechnik-ausstattung-figure-1.jpg",
+        "/assets/images/werbetechnik-ausstattung-figure-2.jpg"
+      ]
     }
   ]
 }

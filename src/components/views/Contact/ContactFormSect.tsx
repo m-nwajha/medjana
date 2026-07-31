@@ -26,9 +26,9 @@ const CONTACT_DATA = [
         </svg>
       </>
     ),
-    title: "Email",
-    contact: "ferula@gmail.com",
-    href: "mailto:ferula@gmail.com",
+    title: "E-Mail",
+    contact: "info@medjana.de",
+    href: "mailto:info@medjana.de",
   },
   {
     icon: (
@@ -47,8 +47,9 @@ const CONTACT_DATA = [
         </svg>
       </>
     ),
-    title: "Phone",
-    contact: "+9190-8687-3345",
+    title: "Telefon",
+    contact: "+49 176 74735594",
+    href: "tel:+4917674735594",
   },
   {
     icon: (
@@ -64,8 +65,8 @@ const CONTACT_DATA = [
         </svg>
       </>
     ),
-    title: "Location",
-    contact: "Malang, Indonesia",
+    title: "Standort",
+    contact: "Niedersachsen & Umgebung",
   },
 ];
 
@@ -75,6 +76,19 @@ const ContactFormSect = () => {
   return (
     <section className="ul_contact_sect">
       <div className="container">
+        <div className="ul_contact_map_box mb-[60px]! rounded-[20px]! overflow-hidden!">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d609.8367984009449!2d9.800219269613342!3d52.3097021181927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b00bfdf7442445%3A0x811a7a7d8bc88456!2sMEDJANA!5e0!3m2!1sen!2s!4v1785505809244!5m2!1sen!2s"
+            width="100%"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title="Medjana Standort auf Google Maps"
+            className="ul_contact_map"
+          />
+        </div>
         <div className="ul_contact_grid_box">
           <div className="ul_contact_info_items">
             <ul role="list" className="ul_contact_info_box w-list-unstyled">
@@ -121,7 +135,7 @@ const ContactFormSect = () => {
                 maxLength={256}
                 name="First_Name"
                 data-name="First Name"
-                placeholder="your First name"
+                placeholder="Vorname"
                 type="text"
                 id="First_Name"
                 required
@@ -130,7 +144,7 @@ const ContactFormSect = () => {
                 maxLength={256}
                 name="Last-Nmae"
                 data-name="Last Nmae"
-                placeholder="your Last name"
+                placeholder="Nachname"
                 type="text"
                 id="Last-Nmae"
                 required
@@ -140,7 +154,7 @@ const ContactFormSect = () => {
                 maxLength={256}
                 name="Your-Email"
                 data-name="Your Email"
-                placeholder="Your Email"
+                placeholder="E-Mail-Adresse"
                 type="email"
                 id="Your-Email"
                 required
@@ -149,7 +163,7 @@ const ContactFormSect = () => {
                 maxLength={256}
                 name="Subject"
                 data-name="Subject"
-                placeholder="Subject"
+                placeholder="Betreff"
                 type="text"
                 id="Subject"
                 required
@@ -159,20 +173,20 @@ const ContactFormSect = () => {
                 name="Message"
                 maxLength={5000}
                 data-name="Message"
-                placeholder="Type Your Message"
+                placeholder="Nachricht"
               />
               <input
                 type="submit"
-                data-wait="Please wait..."
+                data-wait="Bitte warten..."
                 className="ul_contact_form_button w-button bg-[#ffcf00]! hover:bg-[#fff]! border-[#ffcf00]!"
-                value="Send Message"
+                value="Nachricht senden"
               />
             </form>
             <div className="ul_contact_form_success w-form-done">
-              <div>Thank you! Your submission has been received!</div>
+              <div>Vielen Dank! Nachricht wurde erfolgreich gesendet!</div>
             </div>
             <div className="w-form-fail">
-              <div>Oops! Something went wrong while submitting the form.</div>
+              <div>Hoppla! Beim Absenden ist ein Fehler aufgetreten.</div>
             </div>
           </div>
         </div>

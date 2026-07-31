@@ -5,27 +5,27 @@ import { useState } from "react";
 const FAQ_ITEMS = [
   {
     id: "1d8432d7-8be1-cc08-f6de-66dfec729a85",
-    question: "What services does Ferula offer?",
+    question: "Welche Services bietet Medjana an?",
     answer:
-      "We provide branding, web development, UI/UX design, and digital marketing solutions tailored to empower your brand online.",
+      "Wir bieten Druck & Print, Speisekarten & Menüs, TV & Video-Design, Webdesign, Markenauftritt & Design sowie Werbetechnik & Ausstattung - alles aus einer Hand.",
   },
   {
     id: "8cb9c9b0-5bf0-efc4-ae42-f2a2d59b8b75",
-    question: "How long does a typical project take?",
+    question: "Wie lange dauert ein typisches Projekt?",
     answer:
-      "Project timelines vary based on scope, but we always ensure efficient delivery while maintaining the highest creative standards.",
+      "Die Dauer hängt vom jeweiligen Umfang ab, aber wir sorgen stets für eine effiziente Umsetzung bei höchstem gestalterischem Anspruch.",
   },
   {
     id: "0dd765b0-fe06-907e-4135-b274f30421a1",
-    question: "Can you work with small businesses?",
+    question: "Arbeitet ihr auch mit kleinen Unternehmen zusammen?",
     answer:
-      "Absolutely! We love helping startups and small businesses craft strong brand identities and launch their digital presence.",
+      "Auf jeden Fall! Wir unterstützen gerne Gastronomen und kleine Unternehmen dabei, einen starken Markenauftritt zu entwickeln und sichtbar zu werden.",
   },
   {
     id: "c6c79945-a399-8959-8235-958035281be5",
-    question: "Do you offer custom website designs?",
+    question: "Bietet ihr auch individuelle Webdesigns an?",
     answer:
-      "Yes, every website we create is fully custom, blending functionality and design to perfectly match your brand goals.",
+      "Ja, jede Website, die wir erstellen, ist vollständig individuell gestaltet und verbindet Funktionalität mit Design, ganz auf Ihre Ziele abgestimmt.",
   },
 ];
 
@@ -37,7 +37,7 @@ const FaqSect = () => {
       <div className="container">
         <div className="ul_faq_grid_box">
           <div className="ul_faq_title_box ul_text_amin">
-            <h2 className="ul_title">Frequently asked questions</h2>
+            <h2 className="ul_title">Häufig gestellte Fragen</h2>
           </div>
           <div className="ul_faq_wrapper_box">
             {FAQ_ITEMS.map((item, index) => (

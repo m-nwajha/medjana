@@ -2,17 +2,17 @@
 
 import { useWFPage } from "@/hooks/useWFPage";
 import ServicesHeroSect from "./ServicesHeroSect";
-import ServicesListSect from "./ServicesListSect";
-import BrandLogoSect from "./BrandLogoSect";
+import ServicesListSect, { ServicesListSectProps } from "./ServicesListSect";
+// import BrandLogoSect from "./BrandLogoSect";
 import FaqSect from "./FaqSect";
 
-const ServicesPage = () => {
+const ServicesPage = ({ getData }: ServicesListSectProps) => {
   useWFPage("692ec84ae383c17227fc8dad");
 
   return (
     <>
       <ServicesHeroSect />
-      <ServicesListSect />
+      <ServicesListSect getData={getData} />
       {/* <BrandLogoSect /> */}
       <FaqSect />
     </>

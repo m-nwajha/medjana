@@ -24,7 +24,7 @@ const Footer = () => {
             <li className="ul_footer_nav_items">
               <Link
                 href="/services"
-                className="ul_footer_nav w-inline-block hover:text-[#fbd30b]!"
+                className="ul_footer_nav w-inline-block text-white! hover:text-[#fbd30b]!"
               >
                 <div>Services</div>
               </Link>
@@ -32,7 +32,7 @@ const Footer = () => {
             <li className="ul_footer_nav_items">
               <Link
                 href="/contact"
-                className="ul_footer_nav w-inline-block hover:text-[#fbd30b]!"
+                className="ul_footer_nav w-inline- text-white! hover:text-[#fbd30b]!"
               >
                 <div>Kontakt</div>
               </Link>
@@ -40,7 +40,7 @@ const Footer = () => {
             <li className="ul_footer_nav_items">
               <Link
                 href="/impressum"
-                className="ul_footer_nav w-inline-block hover:text-[#fbd30b]!"
+                className="ul_footer_nav w-inline-block text-white! hover:text-[#fbd30b]!"
               >
                 <div>Impressum</div>
               </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
             <li className="ul_footer_nav_items">
               <Link
                 href="/datenschutz"
-                className="ul_footer_nav w-inline-block hover:text-[#fbd30b]!"
+                className="ul_footer_nav w-inline-block text-white! hover:text-[#fbd30b]!"
               >
                 <div>Datenschutz</div>
               </Link>
@@ -56,7 +56,7 @@ const Footer = () => {
             <li className="ul_footer_nav_items">
               <Link
                 href="/AGB"
-                className="ul_footer_nav w-inline-block hover:text-[#fbd30b]!"
+                className="ul_footer_nav w-inline-block text-white! hover:text-[#fbd30b]!"
               >
                 <div>AGB</div>
               </Link>
@@ -68,7 +68,7 @@ const Footer = () => {
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="ul_footer_nav w-inline-block hover:text-[#fbd30b]!"
+                className="ul_footer_nav w-inline-block text-white! hover:text-[#fbd30b]!"
               >
                 <div>Instagram</div>
               </a>
@@ -78,7 +78,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="ul_footer_nav w-inline-block hover:text-[#fbd30b]!"
+                className="ul_footer_nav w-inline- text-white! hover:text-[#fbd30b]!"
               >
                 <div>Linkedin</div>
               </a>
@@ -88,7 +88,7 @@ const Footer = () => {
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="ul_footer_nav w-inline-block hover:text-[#fbd30b]!"
+                className="ul_footer_nav w-inline- text-white! hover:text-[#fbd30b]!"
               >
                 <div>Facebook</div>
               </a>

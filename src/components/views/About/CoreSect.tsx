@@ -5,9 +5,9 @@ const CoreSect = () => {
     <section className="ul_core_sect">
       <div className="container">
         <div className="ul_title_with_des_box">
-          <h2 className="ul_title">Our Core Values</h2>
+          <h2 className="ul_title">Unsere Grundwerte</h2>
           <p className="ul_short_des ul_short_des_max_width">
-            Our core values shape our culture, drive our decisions, and keep us aligned with your success.
+            Unsere Grundwerte prägen unsere Arbeitsweise und sorgen dafür, dass Ihr Erfolg bei uns im Mittelpunkt steht.
           </p>
         </div>
         <div className="ul_core_grid_box">
@@ -16,9 +16,9 @@ const CoreSect = () => {
             className="ul_core_items_one"
           >
             <div className="ul_core_one_content_box">
-              <h3 className="ul_core_one_content_title">Team Collaboration</h3>
+              <h3 className="ul_core_one_content_title">Persönliche Beratung</h3>
               <p className="ul_short_des">
-                We believe the best ideas are born through collaboration. Our diverse team of designers, developers, and strategists work together to turn visions into reality.
+                Wir hören zuerst zu, bevor wir gestalten. Nur so entsteht eine Lösung, die wirklich zu Ihrem Betrieb und Ihren Zielen passt.
               </p>
             </div>
             <div data-w-id="f4dda4cf-feda-f507-09b3-759ca60bf3b4" className="ul_core_one_banner_box">
@@ -45,9 +45,9 @@ const CoreSect = () => {
               />
             </div>
             <div className="ul_core_two_content_box">
-              <h3 className="ul_core_one_content_title">100% safe &amp; secure</h3>
+              <h3 className="ul_core_one_content_title">Zuverlässige Umsetzung</h3>
               <p className="ul_short_des">
-                Your brand’s trust is our top priority. We ensure every project follows a transparent, secure process to protect your creative assets and digital presence.
+                Termine und Absprachen sind für uns verbindlich. So können Sie sich während des gesamten Projekts auf uns verlassen.
               </p>
             </div>
           </div>

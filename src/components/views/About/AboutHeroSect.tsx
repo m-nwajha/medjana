@@ -18,11 +18,11 @@ const AboutHeroSect = () => {
           className="ul_about_title_box"
         >
           <h2 className="ul_inner_hero_banner_title ul_about_title">
-            Advice on <span className="ul_about_title_span">Creativity</span>
+            <span className="lg:text-[5rem]!">Gestaltung mit </span><span className="ul_about_title_span">Medjana</span>
           </h2>
           <p className="ul_short_des ul_about_short_des">
-            We blend imagination with strategy to craft impactful digital
-            experiences.
+            Wir verbinden kreative Ideen mit praktischer Umsetzung - persönlich,
+            verständlich und aus einer Hand.
           </p>
         </div>
         <div
@@ -67,14 +67,14 @@ const AboutHeroSect = () => {
                   __html: JSON.stringify({
                     items: [
                       {
-                        url: "https://www.youtube.com/watch?v=TLYlXI8HpH0",
+                        url: "https://youtu.be/1Qq0uSk9fK4?si=fV8Assdb4yikas04",
                         originalUrl:
-                          "https://www.youtube.com/watch?v=TLYlXI8HpH0",
+                          "https://www.youtube.com/watch?v=1Qq0uSk9fK4",
                         width: 940,
                         height: 528,
                         thumbnailUrl:
-                          "https://i.ytimg.com/vi/TLYlXI8HpH0/hqdefault.jpg",
-                        html: '<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FTLYlXI8HpH0%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DTLYlXI8HpH0&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FTLYlXI8HpH0%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>',
+                          "https://i.ytimg.com/vi/1Qq0uSk9fK4/hqdefault.jpg",
+                        html: '<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F1Qq0uSk9fK4%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1Qq0uSk9fK4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F1Qq0uSk9fK4%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>',
                         type: "video",
                       },
                     ],

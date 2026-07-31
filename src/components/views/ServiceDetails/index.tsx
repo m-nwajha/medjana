@@ -1,16 +1,21 @@
 "use client";
 
 import { useWFPage } from "@/hooks/useWFPage";
-import ServiceDetailsHeroSect from "./ServiceDetailsHeroSect";
+import { Service } from "@/app/services/[id]/page";
+import ServiceDetailsHeroSect from "./ServiceDetailsHero";
 import ServiceDetailsContentSect from "./ServiceDetailsContentSect";
 
-const ServiceDetailsPage = () => {
+interface ServiceDetailsPageProps {
+  service: Service;
+}
+
+const ServiceDetailsPage = ({ service }: ServiceDetailsPageProps) => {
   useWFPage("692ec84ae383c17227fc8dae");
 
   return (
     <>
-      <ServiceDetailsHeroSect />
-      <ServiceDetailsContentSect />
+      <ServiceDetailsHeroSect title={service.title} />
+      <ServiceDetailsContentSect service={service} />
     </>
   );
 };

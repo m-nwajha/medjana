@@ -14,7 +14,7 @@ const ContactHeroSect = () => {
           data-w-id="9c74a479-42e1-4444-7593-15860ddc7ca7"
           className="ul_contact_hero_banner_title_box"
         >
-          <h1 className="ul_inner_hero_banner_title">Contact Us</h1>
+          <h1 className="ul_inner_hero_banner_title">Kontakt</h1>
         </div>
       </div>
     </section>

@@ -18,9 +18,10 @@ const AboutSect = () => {
           className="ul_about_text_box ul_text_amin_two"
         >
           <p className="ul_about_text">
-            At Ferula, we specialize in helping brands stand out in a crowded
-            digital world. Our passion for creativity, innovation, and strategic
-            growth drives every project we take on.
+            Gute Gestaltung muss mehr können als gut aussehen. counter Sie soll
+            Ihr Angebot verständlich machen counter Vertrauen schaffen und im
+            Kopf bleiben. counter Medjana verbindet kreative Ideen mit
+            praktischer Umsetzung . online, auf Papier und direkt vor Ort
           </p>
         </div>
         <div className="ul_about_card_flex_box">
@@ -30,15 +31,15 @@ const AboutSect = () => {
           >
             <div className="ul_about_card_content_box_one">
               <h2 className="ul_about_card_content_counter counterup_two">
-                23+
+                360°
               </h2>
-              <p className="ul_short_des">Brands Empowered</p>
+              <p className="ul_short_des">Ein Ansprechpartner</p>
             </div>
             <div className="ul_about_card_content_box_two">
               <p className="ul_short_des">
-                We’ve partnered with brands across industries to craft
-                distinctive digital identities that leave a lasting impact on
-                their audiences.
+                Von der ersten Idee bis zur fertigen Umsetzung begleiten wir Sie
+                persönlich - ohne Umwege über mehrere Ansprechpartner oder
+                Agenturen.
               </p>
             </div>
           </div>
@@ -48,15 +49,14 @@ const AboutSect = () => {
           >
             <div className="ul_about_card_content_box_one">
               <h2 className="ul_about_card_content_counter counterup_two">
-                130+
+                100 %
               </h2>
-              <p className="ul_short_des">Digital Solutions </p>
+              <p className="ul_short_des">Komplettservice</p>
             </div>
             <div className="ul_about_card_content_box_two">
               <p className="ul_short_des">
-                From websites to marketing campaigns, our creative solutions are
-                tailored to spark growth, drive engagement, and fuel business
-                success.
+                Ob Druck, Webdesign oder Werbetechnik - wir decken alle Bereiche
+                ab, damit Ihr Auftritt überall aus einem Guss wirkt.
               </p>
             </div>
           </div>
@@ -66,15 +66,15 @@ const AboutSect = () => {
           >
             <div className="ul_about_card_content_box_one">
               <h2 className="ul_about_card_content_counter counterup_two">
-                15+
+                12+
               </h2>
-              <p className="ul_short_des">Awards</p>
+              <p className="ul_short_des">Jahre Erfahrung</p>
             </div>
             <div className="ul_about_card_content_box_two">
               <p className="ul_short_des">
-                Our commitment to innovation and design excellence has earned us
-                recognition from leading industry platforms and global creative
-                communities.
+                Über die Jahre haben wir Gastronomen und lokale Unternehmen
+                dabei begleitet, sichtbar zu werden und im Kopf ihrer Gäste zu
+                bleiben.
               </p>
             </div>
           </div>
