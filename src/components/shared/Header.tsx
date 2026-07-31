@@ -80,7 +80,7 @@ const Header = () => {
               </nav>
               <ButtonSolid
                 href="/contact"
-                label="Get Started"
+                label="Kontakt"
                 dataWId="f0c27159-9854-7615-e1b6-8312bd74e45b"
               />
             </div>
@@ -142,7 +142,7 @@ const Header = () => {
 
               <ButtonSolid
                 href="/contact"
-                label="Get Started"
+                label="Kontakt"
                 dataWId="ab1c7ac7-c86d-2246-5d11-49bee1448acd"
               />
             </nav>

@@ -21,9 +21,5 @@ export const navbarRoutes: NavRoute[] = [
   {
     title: "Über uns",
     href: "/about",
-  },
-  {
-    title: "Kontakt",
-    href: "/contact",
-  },
+  }
 ];
