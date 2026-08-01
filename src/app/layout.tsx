@@ -5,10 +5,11 @@ import "@/styles/medjana.webflow.css";
 import "@/styles/globals.css";
 import MainLayout from "@/components/layouts/MainLayout";
 import { Manrope } from "next/font/google";
+import { Suspense } from "react";
 
 export const manrope = Manrope({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"], 
+  weight: ["300", "400", "500", "600", "700"],
   variable: "--font-family",
   display: "swap",
 });
@@ -20,19 +21,19 @@ export const metadata: Metadata = {
   },
   description:
     "Medjana ist Ihre Kreativagentur aus Laatzen für Druck, Webdesign, Markenauftritt und Werbetechnik - alles aus einer Hand.",
-    openGraph: {
-      title: "Medjana Art & Idea - Kreativagentur aus Laatzen",
-      description:
-        "Medjana ist Ihre Kreativagentur aus Laatzen für Druck, Webdesign, Markenauftritt und Werbetechnik - alles aus einer Hand.",
-      images: [
-        {
-          url: "/assets/images/google-360.png",
-          width: 1200,
-          height: 630,
-          alt: "Medjana Art & Idea",
-        },
-      ],
-    },
+  openGraph: {
+    title: "Medjana Art & Idea - Kreativagentur aus Laatzen",
+    description:
+      "Medjana ist Ihre Kreativagentur aus Laatzen für Druck, Webdesign, Markenauftritt und Werbetechnik - alles aus einer Hand.",
+    images: [
+      {
+        url: "/assets/images/google-360.png",
+        width: 1200,
+        height: 630,
+        alt: "Medjana Art & Idea",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -48,7 +49,9 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className={manrope.variable}>
-        <MainLayout>{children}</MainLayout>
+        <Suspense fallback={null}>
+          <MainLayout>{children}</MainLayout>
+        </Suspense>
       </body>
     </html>
   );
