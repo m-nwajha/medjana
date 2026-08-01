@@ -4,7 +4,7 @@ import { useWebflowReinit } from "@/hooks/useWebflowReinit";
 import { slugify } from "@/utils/slugify";
 import Link from "next/link";
 
-const PROJECT_CATEGORIES = [
+export const PROJECT_CATEGORIES = [
   {
     id: "1",
     category: "Druck & Print",

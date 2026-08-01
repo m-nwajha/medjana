@@ -66,7 +66,7 @@ const CONTACT_DATA = [
       </>
     ),
     title: "Standort",
-    contact: "Niedersachsen & Umgebung",
+    contact: "Mannheimer Str. 14, 30880 Laatzen",
   },
 ];
 

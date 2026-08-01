@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { useScriptsReady } from "@/components/contexts/ScriptsProvider";
 
 type WebflowModuleName = "ix2" | "lightbox" | "tabs" | "slider" | "navbar" | "dropdown";
@@ -16,6 +16,8 @@ export const useWebflowReinit = (modules: WebflowModuleName[] = ["ix2"]) => {
   const { webflow } = useScriptsReady();
 
   const pathname = usePathname();
+
+  const searchParams = useSearchParams();
 
   useEffect(() => {
     if (!webflow) return;
@@ -36,5 +38,5 @@ export const useWebflowReinit = (modules: WebflowModuleName[] = ["ix2"]) => {
 
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [webflow, pathname]);
+  }, [webflow, pathname, searchParams]);
 }

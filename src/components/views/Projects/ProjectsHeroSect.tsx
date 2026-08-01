@@ -19,10 +19,11 @@ const ProjectsHeroSect = () => {
           className="ul_service_hero_banner_title_box"
         >
           <p className="ul_short_des ul_blog_hero_banner_des">
-            We provide a wide array of services tailored to your specific needs. Our skilled team is
+            Ein Einblick in unsere Arbeit - Projekte, die zeigen, wie wir
+            Ideen mit Wirkung
           </p>
           <h1 className="ul_inner_hero_banner_title ul_service_details_hero_banner_title">
-            The Work<span className="ul_blog_hero_banner_title_span">Speaks</span>
+            Die Arbeit<span className="ul_blog_hero_banner_title_span">spricht</span>
           </h1>
         </div>
       </div>
