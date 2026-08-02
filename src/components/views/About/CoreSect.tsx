@@ -31,7 +31,7 @@ const CoreSect = () => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/assets/images/ChatGPT%20Image%202.%20Aug.%202026,%2018_30_03.png"
+                src="/assets/images/about-b1.png"
                 loading="lazy"
                 alt="core banner"
                 className="ul_core_one_banner img_hover"
@@ -48,7 +48,7 @@ const CoreSect = () => {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/assets/images/ChatGPT%20Image%202.%20Aug.%202026,%2018_33_36.png"
+                src="/assets/images/about-b2.png"
                 loading="lazy"
                 alt="core Banner"
                 className="ul_core_two_banner img_hover"

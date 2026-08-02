@@ -49,7 +49,7 @@ const AboutHeroSect = () => {
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/assets/images/ChatGPT%20Image%202.%20Aug.%202026,%2018_30_59.png"
+              src="/assets/images/about2.png"
               loading="lazy"
               alt="banner"
               className="ul_about_hero_banner img_hover"
@@ -92,7 +92,7 @@ const AboutHeroSect = () => {
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/assets/images/ChatGPT%20Image%202.%20Aug.%202026,%2018_34_42.png"
+              src="/assets/images/about3.png"
               loading="lazy"
               alt="banner"
               className="ul_about_hero_banner img_hover"
