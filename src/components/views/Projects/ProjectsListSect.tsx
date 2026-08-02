@@ -28,7 +28,7 @@ export type ProjectDataType = {
 
 const filters = [
   "All",
-  ...Array.from(new Set(PROJECT_CATEGORIES.map((p) => slugify(p.category)))),
+  ...Array.from(new Set(PROJECT_CATEGORIES.map((p) => p.category))),
 ];
 
 const ProjectsListContent = ({ projects }: { projects: ProjectDataType[] }) => {
@@ -80,7 +80,7 @@ const ProjectsListContent = ({ projects }: { projects: ProjectDataType[] }) => {
             <button
               key={filter}
               onClick={() => handleFilterClick(filter)}
-              className={`px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 border cursor-pointer ${
+              className={`px-7 py-3 rounded-full text-[1.1rem]! font-semibold transition-all duration-300 border cursor-pointer ${
                 activeFilter === filter
                   ? "bg-[#fbd30b] text-white! border-[#fbd30b]"
                   : "bg-transparent text-white! border-white/10! hover:text-[#fbd30b]!"

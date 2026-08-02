@@ -27,10 +27,12 @@ const ProvideSect = ({ getData }: ProvideSectProps) => {
     <section className="ul_provide_sect">
       <div className="container ul_provide_top_border"></div>
       <div className="container">
-        <div className="ul_title_with_des_box">
-          <h2 className="ul_title text-[2.2rem]!">
-            Alles für einen Auftritt, der Eindruck macht.
-          </h2>
+        <div className="ul_title_with_des_box ">
+          <h2 className="ul_title">Services</h2>
+          <p className="ul_short_des ul_short_des_max_width">
+            Von Design und Branding über Print und Druck bis hin zu
+            individuellen Werbelösungen – alles aus einer Hand.
+          </p>
         </div>
         <div
           data-w-id="895bdf02-9d7d-7256-9f57-c235533d8f6f"

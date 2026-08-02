@@ -46,12 +46,11 @@ const ProjectSect = () => {
     <section className="ul_home_project_sect">
       <div className="container">
         <div className="ul_title_with_des_box">
-          <h2 className="ul_title lg:text-[2.8rem]!">
-            Design, das im Alltag funktioniert.
-          </h2>
+          <h2 className="ul_title">Projekte</h2>
           <p className="ul_short_des ul_short_des_max_width">
-            Jedes Projekt beginnt mit Zuhören. So entsteht keine Lösung von der
-            Stange, sondern genau das, was Sie wirklich brauchen.
+            Jedes Projekt erzählt eine eigene Geschichte. Mit kreativem Design,
+            hochwertigem Druck und individuellen Lösungen schaffen wir Marken,
+            die im Gedächtnis bleiben.
           </p>
         </div>
         <div className="ul_home_project_collection_wrapper w-dyn-list">
@@ -67,13 +66,15 @@ const ProjectSect = () => {
               >
                 <Link
                   href={`/projects?category=${encodeURIComponent(
-                    slugify(item.category)
+                    slugify(item.category),
                   )}`}
-                  className="ul_home_project_collection_box w-inline-block hover:bg-[#fbd30b]!"
+                  className="ul_home_project_collection_box w-inline-block group hover:bg-[#fbd30b]!"
                 >
                   <div className="ul_home_project_name_flex_box">
-                    <h3 className="ul_home_project_name">{item.category}</h3>
-                    <div className="ul_home_project_type">
+                    <h3 className="ul_home_project_name group-hover:text-[#000]!">
+                      {item.category}
+                    </h3>
+                    <div className="ul_home_project_type group-hover:text-[#000]! group-hover:border-[#000]!">
                       <div>{item.tags.join(" · ")}</div>
                     </div>
                   </div>
@@ -91,10 +92,10 @@ const ProjectSect = () => {
                       />
                     </div>
                     <div className="ul_home_project_content_box">
-                      <h3 className="ul_home_project_content_title">
+                      <h3 className="ul_home_project_content_title group-hover:text-[#000]!">
                         {item.category}
                       </h3>
-                      <p className="ul_short_des">{item.description}</p>
+                      <p className="ul_short_des group-hover:text-[#000]/50!">{item.description}</p>
                     </div>
                   </div>
                 </Link>

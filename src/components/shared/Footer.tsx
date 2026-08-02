@@ -8,12 +8,12 @@ const Footer = () => {
           data-w-id="59180ab9-397e-9f6d-dae3-0257f441fb3a"
           className="ul_footer_title_box"
         >
-          <h1 className="ul_footer_title">REDEN WIR</h1>
+          <h1 className="ul_footer_title lg:text-[10rem]!">KONTAKT AUFNEHMEN</h1>
           <Link
             href="/contact"
             className="ul_footer_title_button w-inline-block hover:bg-[#fbd30b]!"
           >
-            <div>REDEN WIR</div>
+            <div>KONTAKT</div>
           </Link>
         </div>
         <div

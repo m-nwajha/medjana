@@ -25,14 +25,14 @@ export const metadata: Metadata = {
     title: "Medjana Art & Idea - Kreativagentur aus Laatzen",
     description:
       "Medjana ist Ihre Kreativagentur aus Laatzen für Druck, Webdesign, Markenauftritt und Werbetechnik - alles aus einer Hand.",
-    images: [
-      {
-        url: "/assets/images/google-360.png",
-        width: 1200,
-        height: 630,
-        alt: "Medjana Art & Idea",
-      },
-    ],
+    // images: [
+    //   {
+    //     url: "/assets/images/google-360.png",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Medjana Art & Idea",
+    //   },
+    // ],
   },
 };
 
