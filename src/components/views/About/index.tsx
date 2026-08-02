@@ -2,7 +2,7 @@
 import AboutHeroSect from "./AboutHeroSect";
 import AboutSect from "./AboutSect";
 import CoreSect from "./CoreSect";
-import AwardingSect from "./AwardingSect";
+// import AwardingSect from "./AwardingSect";
 import { useWFPage } from "@/hooks/useWFPage";
 
 const AboutPage = () => {
@@ -13,7 +13,7 @@ const AboutPage = () => {
       <AboutHeroSect />
       <AboutSect />
       <CoreSect />
-      <AwardingSect />
+      {/* <AwardingSect /> */}
     </>
   );
 };

@@ -5,9 +5,10 @@ const CoreSect = () => {
     <section className="ul_core_sect">
       <div className="container">
         <div className="ul_title_with_des_box">
-          <h2 className="ul_title">Unsere Grundwerte</h2>
+          <h2 className="ul_title">Grundwerte</h2>
           <p className="ul_short_des ul_short_des_max_width">
-            Unsere Grundwerte prägen unsere Arbeitsweise und sorgen dafür, dass Ihr Erfolg bei uns im Mittelpunkt steht.
+            Unsere Grundwerte prägen unsere Arbeitsweise und sorgen dafür, dass
+            Ihr Erfolg bei uns im Mittelpunkt steht.
           </p>
         </div>
         <div className="ul_core_grid_box">
@@ -16,15 +17,21 @@ const CoreSect = () => {
             className="ul_core_items_one"
           >
             <div className="ul_core_one_content_box">
-              <h3 className="ul_core_one_content_title">Persönliche Beratung</h3>
+              <h3 className="ul_core_one_content_title">
+                Persönliche Beratung
+              </h3>
               <p className="ul_short_des">
-                Wir hören zuerst zu, bevor wir gestalten. Nur so entsteht eine Lösung, die wirklich zu Ihrem Betrieb und Ihren Zielen passt.
+                Wir hören zu, verstehen Ihre Ziele und entwickeln individuelle
+                Lösungen.
               </p>
             </div>
-            <div data-w-id="f4dda4cf-feda-f507-09b3-759ca60bf3b4" className="ul_core_one_banner_box">
+            <div
+              data-w-id="f4dda4cf-feda-f507-09b3-759ca60bf3b4"
+              className="ul_core_one_banner_box"
+            >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/assets/images/core_banner_1.jpg"
+                src="/assets/images/ChatGPT%20Image%202.%20Aug.%202026,%2018_30_03.png"
                 loading="lazy"
                 alt="core banner"
                 className="ul_core_one_banner img_hover"
@@ -35,19 +42,25 @@ const CoreSect = () => {
             data-w-id="14744500-7c8c-5ada-4282-d887dfd403f2"
             className="ul_core_items_two"
           >
-            <div data-w-id="91d9aaec-f432-3324-b2b1-dcd72266235d" className="ul_core_two_banner_box">
+            <div
+              data-w-id="91d9aaec-f432-3324-b2b1-dcd72266235d"
+              className="ul_core_two_banner_box"
+            >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/assets/images/core_banner_2.jpg"
+                src="/assets/images/ChatGPT%20Image%202.%20Aug.%202026,%2018_33_36.png"
                 loading="lazy"
                 alt="core Banner"
                 className="ul_core_two_banner img_hover"
               />
             </div>
             <div className="ul_core_two_content_box">
-              <h3 className="ul_core_one_content_title">Zuverlässige Umsetzung</h3>
+              <h3 className="ul_core_one_content_title">
+                Zuverlässige Umsetzung
+              </h3>
               <p className="ul_short_des">
-                Termine und Absprachen sind für uns verbindlich. So können Sie sich während des gesamten Projekts auf uns verlassen.
+                Klare Prozesse, feste Ansprechpartner und termingerechte
+                Ergebnisse.
               </p>
             </div>
           </div>

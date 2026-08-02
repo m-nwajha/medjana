@@ -18,11 +18,13 @@ const AboutHeroSect = () => {
           className="ul_about_title_box"
         >
           <h2 className="ul_inner_hero_banner_title ul_about_title">
-            <span className="lg:text-[5rem]!">Gestaltung mit </span><span className="ul_about_title_span">Medjana</span>
+            <span className="lg:text-[4rem]">MEHR ALS DESIGN </span>
+            <span className="ul_about_title_span lg:text-[3rem]">WIR GESTALTEN MARKEN</span>
           </h2>
           <p className="ul_short_des ul_about_short_des">
-            Wir verbinden kreative Ideen mit praktischer Umsetzung - persönlich,
-            verständlich und aus einer Hand.
+            Wir entwickeln Designlösungen, die Unternehmen sichtbar machen – von
+            der ersten Idee über Print und Werbetechnik bis hin zu digitalen
+            Medien.
           </p>
         </div>
         <div
@@ -35,7 +37,7 @@ const AboutHeroSect = () => {
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/assets/images/about_banner_one.jpg"
+              src="/assets/images/43243532.png"
               loading="lazy"
               alt="banner"
               className="ul_about_hero_banner img_hover"
@@ -47,7 +49,7 @@ const AboutHeroSect = () => {
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/assets/images/about_banner_two.jpg"
+              src="/assets/images/ChatGPT%20Image%202.%20Aug.%202026,%2018_30_59.png"
               loading="lazy"
               alt="banner"
               className="ul_about_hero_banner img_hover"
@@ -90,7 +92,7 @@ const AboutHeroSect = () => {
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/assets/images/about_banner_there.jpg"
+              src="/assets/images/ChatGPT%20Image%202.%20Aug.%202026,%2018_34_42.png"
               loading="lazy"
               alt="banner"
               className="ul_about_hero_banner img_hover"

@@ -46,7 +46,7 @@ const Hero = () => {
             <div className="video_box">
               <div className="video_bg">
                 <Image
-                  src="/assets/images/home_hero_banner.jpg"
+                  src="/assets/images/hero-image.png"
                   alt=""
                   fill
                   sizes="100vw"

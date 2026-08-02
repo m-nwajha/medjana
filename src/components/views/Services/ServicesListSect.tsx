@@ -6,7 +6,6 @@ import Link from "next/link";
 import ButtonSolid from "@/components/ui/ButtonSolid";
 import { slugify } from "@/utils/slugify";
 
-
 interface Service {
   id: string;
   title: string;
@@ -33,10 +32,12 @@ const ServicesListSect = ({ getData }: ServicesListSectProps) => {
           data-w-id="83f12367-7d96-cb13-4017-f2b793ddcc46"
           className="ul_service_title_items"
         >
-          <div className="ul_service_title_box ul_text_amin">
-            <h2 className="ul_title text-[2.2rem]!">
-              Alles für einen Auftritt, der Eindruck macht.
-            </h2>
+          <div className="ul_title_with_des_box justify-between! ul_text_amin items-center! w-full! ">
+            <h2 className="ul_title">Services</h2>
+            <p className="ul_short_des ul_short_des_max_width">
+              Von Design und Branding über Print und Druck bis hin zu
+              individuellen Werbelösungen – alles aus einer Hand.
+            </p>
           </div>
         </div>
         <div className="ul_service_wrapper_box">

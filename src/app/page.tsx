@@ -13,5 +13,5 @@ export default async function Home() {
     console.error("Error fetching services:", error);
     services = [];
   }
-  return <HomePage getDataProvide={services} />;
+  return <HomePage getData={services} />;
 }
