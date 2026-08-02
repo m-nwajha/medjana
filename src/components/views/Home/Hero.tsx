@@ -31,8 +31,8 @@ const Hero = () => {
                 Design · Druck · Digital - alles aus einer Hand.
               </p>
             </div>
-            <h1 className="ul_hero_banner_title" style={{ fontSize: "7rem" }}>
-              SICHTBARE <br /> IDEEN
+            <h1 className="ul_hero_banner_title" style={{ fontSize: "6rem" }}>
+              SICHTBARE IDEEN
             </h1>
           </div>
         </div>
