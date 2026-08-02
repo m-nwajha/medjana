@@ -222,5 +222,104 @@
         "/assets/images/werbetechnik-ausstattung-figure-2.jpg"
       ]
     }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "image": "/uploads/5.png",
+      "mediaUrl": ["/uploads/3.jpeg", "/uploads/4.jpeg", "/uploads/5.png"],
+      "mediaType": "image",
+      "type": "Druck & Print",
+      "title": "BeautyByNatia Flyer & Visitenkarte",
+      "description": "Ein elegantes Print-Design für ein Kosmetik- und Fusspflegestudio, mit stimmigem Farbkonzept in Bordeaux und Rosé sowie klarer Struktur für Leistungen und Preise."
+    },
+    {
+      "id": "2",
+      "image": "/uploads/8.png",
+      "mediaUrl": ["/uploads/8.png", "/uploads/9.png"],
+      "mediaType": "image",
+      "type": "Druck & Print",
+      "title": "Mamo Style Flyer & Roll-up Design",
+      "description": "Ein luxuriöses Print-Design für eine Modemarke in Hannover, mit edlem Schwarz-Gold-Look für Flyer und Aufsteller, der Eleganz und Exklusivität perfekt widerspiegelt."
+    },
+    {
+      "id": "9",
+      "externalLink": "https://boga-beef-club.de/",
+      "image": "/uploads/mezem-1.png",
+      "mediaUrl": [
+        "/uploads/mezem-1.png",
+        "/uploads/mezem-2.png",
+        "/uploads/mezem-3.png",
+        "/uploads/mezem-4.png"
+      ],
+      "mediaType": "image",
+      "type": "Webdesign",
+      "title": "Mezem Restaurant UI/UX Design",
+      "description": "Ein durchdachtes UI/UX-Design für die Website eines Restaurants, mit intuitiver Navigation und ansprechender visueller Gestaltung für ein appetitliches Nutzererlebnis."
+    },
+    {
+      "id": "3",
+      "image": "/uploads/1.jpeg",
+      "mediaUrl": "/uploads/1.jpeg",
+      "mediaType": "image",
+      "type": "Druck & Print",
+      "title": "Autoverwertung Stautmeister Visitenkarte",
+      "description": "Ein kraftvolles Visitenkartendesign für einen Autoverwertungsbetrieb, mit klarem Schwarz-Gelb-Kontrast, der Zuverlässigkeit und Professionalität ausstrahlt."
+    },
+    {
+      "id": "101",
+      "externalLink": "/uploads/MEDJANA-Visual-Identity.pdf",
+      "image": "/uploads/MEDJANA-Visual-Identity.png",
+      "mediaUrl": "/uploads/MEDJANA-Visual-Identity.pdf",
+      "mediaType": "pdf",
+      "type": "Markenauftritt & Design",
+      "title": "Medjana Visual Identity",
+      "description": "Eine vollständige visuelle Markenidentität für eine Multimedia-Designagentur, mit markantem Logo, durchdachter Farbpalette und klaren Richtlinien für einen konsistenten Auftritt über alle Kanäle hinweg."
+    },
+    {
+      "id": "4",
+      "image": "/uploads/2.jpeg",
+      "mediaUrl": "/uploads/22.jpeg",
+      "mediaType": "image",
+      "type": "Druck & Print",
+      "title": "RYB Consulting Visitenkarte",
+      "description": "Ein modernes Visitenkartendesign für ein Consulting-Unternehmen, mit stilvoller Farbkombination aus Anthrazit und Grün, die Seriosität und Vertrauen vermittelt."
+    },
+    {
+      "id": "5",
+      "image": "/uploads/kitchen.jpg",
+      "mediaUrl": "/uploads/kitchen.jpg",
+      "mediaType": "image",
+      "type": "Werbetechnik & Ausstattung",
+      "title": "Digitale Menüdisplays für Gastronomie",
+      "description": "Gestaltung digitaler Menüboards für ein modernes Restaurant, mit ansprechender Bilddarstellung und klarer Struktur für ein einladendes Gästeerlebnis."
+    },
+    {
+      "id": "6",
+      "image": "/uploads/10.png",
+      "mediaUrl": "/uploads/10.png",
+      "mediaType": "image",
+      "type": "Markenauftritt & Design",
+      "title": "Friseur Alan Markenidentität",
+      "description": "Entwicklung eines eleganten Markenauftritts für einen Friseursalon in Hannover, mit hochwertigem Schwarz-Gold-Logo, das Handwerkskunst und Stil vereint."
+    },
+    {
+      "id": "7",
+      "image": "/uploads/6.png",
+      "mediaUrl": "/uploads/6.png",
+      "mediaType": "image",
+      "type": "Markenauftritt & Design",
+      "title": "Mohammad Ayoub Fitnesstrainer Branding",
+      "description": "Gestaltung einer dynamischen Personenmarke für einen Fitnesstrainer, mit kraftvollem Logo und modernem Rot-Schwarz-Design, das Energie und Professionalität ausstrahlt."
+    },
+    {
+      "id": "8",
+      "image": "/uploads/7.png",
+      "mediaUrl": "/uploads/7.png",
+      "mediaType": "image",
+      "type": "Druck & Print",
+      "title": "Leo Reinigung Flyer Design",
+      "description": "Ein frisches Flyer-Design für ein Reinigungs- und Gartenpflegeunternehmen in Peine, mit klarer Struktur, ansprechenden Bildern und einer einladenden Grün-Blau-Farbwelt."
+    }
   ]
 }

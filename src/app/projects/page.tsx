@@ -6,6 +6,19 @@ export const metadata: Metadata = {
   description: "Ein Einblick in unsere Arbeit - Projekte, die zeigen, wie wir Ideen mit Wirkung",
 };
 
-export default function Projects() {
-  return <ProjectsPage />;
+export default async function Projects() {
+  let projects = [];
+  try {
+    const res = await fetch("http://localhost:5000/projects", {
+      next: {
+        revalidate: 60,
+      },
+    });
+    projects = await res.json();
+  } catch (error) {
+    console.error("Error fetching projects:", error);
+    projects = [];
+  }
+
+  return <ProjectsPage getData={projects} />;
 }
