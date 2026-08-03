@@ -56,7 +56,7 @@ const ServicesListSect = ({ getData }: ServicesListSectProps) => {
                       </div>
                       <Link
                         href={`/services/${slugify(service.title)}`}
-                        className="ul_service_content_title w-inline-block hover:text-[#fbd30b]!"
+                        className="ul_service_content_title w-inline-block text-[1.1rem]! md:text-[1.5rem]! lg:text-[2rem]! hover:text-[#fbd30b]!"
                       >
                         <div>{service.title}</div>
                       </Link>

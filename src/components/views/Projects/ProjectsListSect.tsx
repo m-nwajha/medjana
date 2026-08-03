@@ -104,7 +104,7 @@ const ProjectsListContent = ({ projects }: { projects: ProjectDataType[] }) => {
                     <div
                       data-w-id="1047d664-0d97-205d-63f7-eb40a6db9d09"
                       onClick={() => handleSelectProject(project)}
-                      className="ul_project_banner_box w-inline-block cursor-pointer"
+                      className="ul_project_banner_box w-inline-block cursor-pointer lg:h-[90vh]! overflow-hidden!"
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
